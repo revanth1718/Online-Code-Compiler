@@ -34,7 +34,7 @@ function App() {
         }
 
         // Post request to compile endpoint
-        Axios.post(`http://localhost:8000/compile`, {
+        Axios.post(`https://online-code-compiler-server-tau.vercel.app/compile`, {
             code: userCode,
             language: userLang,
             input: userInput
